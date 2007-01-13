@@ -15,7 +15,7 @@ local function OnEvent()
 end
 
 
-local f = CreateFrame()
+local f = CreateFrame("Frame")
 f:RegisterEvent("MERCHANT_SHOW")
 f:SetScript("OnEvent", OnEvent)
 
