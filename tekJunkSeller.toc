@@ -1,0 +1,11 @@
+## Interface: 20003
+
+## Title: tekJunkSeller
+## Notes: Automatically vendor off grey items
+## Author: Tekkub Stoutwrithe
+## X-Website: http://code.google.com/p/tekkub-wow/
+## X-Email: tekkub-wow@googlegroups.com
+## X-Credits: Sell-O-Matic by Rowne
+## X-Category: Inventory
+
+tekJunkSeller.lua
