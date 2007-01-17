@@ -1,23 +1,19 @@
 
 
-local function SellItem(bag, slot)
-	if not bag or not slot then return end
-	ShowMerchantSellCursor(1)
-	UseContainerItem(bag, slot)
-end
-
-local function OnEvent()
+local f = CreateFrame("Frame")
+f:RegisterEvent("MERCHANT_SHOW")
+f:SetScript("OnEvent", function()
 	for bag=0,4 do
 		for slot=0,GetContainerNumSlots(bag) do
-			if select(3, GetItemInfo(GetContainerItemLink(bag, slot))) == 0 then SellItem(bag, slot) end
+			local link = GetContainerItemLink(bag, slot)
+			if link and select(3, GetItemInfo(link)) == 0 then
+				ShowMerchantSellCursor(1)
+				UseContainerItem(bag, slot)
+			end
 		end
 	end
 end
-
-
-local f = CreateFrame("Frame")
-f:RegisterEvent("MERCHANT_SHOW")
-f:SetScript("OnEvent", OnEvent)
+)
 
 
 
