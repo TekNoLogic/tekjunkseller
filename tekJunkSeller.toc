@@ -3,6 +3,7 @@
 ## Title: tekJunkSeller
 ## Notes: Automatically vendor off grey items
 ## Author: Tekkub Stoutwrithe
+## Version: Alpha
 ## X-Website: http://code.google.com/p/tekkub-wow/
 ## X-Email: tekkub-wow@googlegroups.com
 ## X-Credits: Sell-O-Matic by Rowne
