@@ -9,4 +9,8 @@
 ## X-Credits: Sell-O-Matic by Rowne
 ## X-Category: Inventory
 
+## LoadManagers: AddonLoader
+## X-LoadOn-Events: MERCHANT_SHOW
+## X-LoadOn-MERCHANT_SHOW: LoadAddOn('tekJunkSeller')
+
 tekJunkSeller.lua
