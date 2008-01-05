@@ -1,8 +1,6 @@
 
 
-local f = CreateFrame("Frame")
-f:RegisterEvent("MERCHANT_SHOW")
-f:SetScript("OnEvent", function()
+local function OnEvent()
 	for bag=0,4 do
 		for slot=0,GetContainerNumSlots(bag) do
 			local link = GetContainerItemLink(bag, slot)
@@ -13,7 +11,11 @@ f:SetScript("OnEvent", function()
 		end
 	end
 end
-)
 
+local f = CreateFrame("Frame")
+f:RegisterEvent("MERCHANT_SHOW")
+f:SetScript("OnEvent", OnEvent)
+
+if MerchantFrame:IsVisible() then OnEvent() end
 
 
