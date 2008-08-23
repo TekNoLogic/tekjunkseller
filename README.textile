@@ -1,0 +1,9 @@
+tekJunkSeller is a simple addon that automatically sells all your grey items when you visit a vendor.  No config, install and go.
+
+There is a single grey item in the game that starts a quest.  If you're questing in Swamp of Sorrows, watch out for "%{color:#9d9d9d}[Noboru's Cudgel]%":http://www.wowhead.com/?item=6196.
+
+h2. Links
+
+<b>Visit "my site":http://www.tekkub.net/addons/tekJunkSeller for more info.<br>
+Please report all bugs and feature requests to my "Google Code":http://code.google.com/p/tekkub-wow/issues/list?can=1&q=addon:tekJunkSeller&sort=status+milestone&colspec=ID%20Type%20Status%20Addon%20Milestone%20Summary tracker<br>
+Please direct all feedback and questions to my "Google Groups":http://groups-beta.google.com/group/tekkub-wow mailinglist.</b>
